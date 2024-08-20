@@ -138,16 +138,15 @@ Digital identities and credentials are powerful business enablers and offer sign
 
 They can guarantee other rights, such as the right to accessibility promoted by the *Marrakesh Treaty* [[marrakesh-treaty]]. They can also "*empower refugees, stateless individuals, and forcibly displaced persons*" [[UNHCR-digital-identity]]. 
 
-These technologies can also be used on a humanitarian level. Referring to the NHIs, the International Committee of Red Cross (ICRC) investigated *Digital Emblems* [[ADEM]] to identify ICT assets protected under international law [[digitalizing-report]].
+These technologies can also be used on a humanitarian level. Referring to the NHIs, the International Committee of the Red Cross (ICRC) investigated *Digital Emblems* [[ADEM]] to identify ICT assets protected under international law [[digitalizing-report]].
 
 Note: However, like all innovations, these technologies can have downsides. To paraphrase Paul Watzlawick, the innovation of these technologies must not become “*ultra-solutions*” where “*operation successful, patient dead*” [[ultra-solutions]]. So, the challenge is to enable this technological innovation by being aware of the threats to privacy, security, and human rights.
-So, the challenge is enabling this technological innovation by being aware of the threats to Privacy, security, and Human Rights.
 
 Therefore, it is necessary to analyze the various threats to mitigate them at their root in designing and implementing these technologies and related standards.
 
-As an example, below is an initial analysis of threats to human rights (Harms) concerning government-issued digital identities using Microsoft's Harms Modeling [[harms-modeling]]:
+As an example, below is an initial analysis of threats (or harms) to human rights concerning government-issued digital identities using Microsoft's Harms Modeling [[harms-modeling]]:
 
-* **Opportunity Loss** (*Discrimination*): This complex issue spans multiple areas. *Digital divide*: if digital identities are required for access to public services and no alternatives are present, and if they depend on certain hardware, software, or stable connectivity, it can lead to discrimination for people who do not have availability of these resources. In addition to discrimination within the same country, there is further discrimination if there is no “cross-border” interoperability between the technologies and implementations used by different governments.  
+* **Opportunity Loss** (*Discrimination*): This complex issue spans multiple areas, particularly that of the *Digital Divide*. If digital identities are required for access to public services and no alternatives are present, and if they depend on certain hardware, software, or stable connectivity, it can lead to discrimination for people who do not have availability of these resources. In addition to discrimination within the same country, there is further discrimination if there is no “cross-border” interoperability between the technologies and implementations used by different governments.  
 * **Economic loss** (*Discrimination*): The availability of digital identities and related credentials, which can contain a lot of information regarding wealth status, can be used to discriminate against access to credit. This can also be generalized - as was identified during a [W3C breakout session](https://github.com/w3c/breakouts-day-2024/issues/12) - and concerns the [Javons paradox](https://www.tandfonline.com/doi/abs/10.1080/15487733.2009.11908028). The more information available, the more likely it is that collection, particularly in greedy data-driven contexts, is abused.
 * **Dignity loss** (*Dehumanization*): For example, if the vocabulary does not correctly describe people’s characteristics, this can reduce or obscure people’s humanity and characteristics.
 * **Privacy Loss** (*Surveillance*): if this technology is not designed and implemented properly, it can lead to surveillance by state and non-state actors such as government and private technology providers. For example, centralized or federated models are more prone to these threats, while decentralized models are less so, but it depends on how they are implemented. Therefore, it is necessary to provide privacy-preserving technologies and implement them properly.
@@ -166,7 +165,7 @@ These examples represent the [evolutionary stages of Internet Identity](https://
 
 ## Centralized identity model ## {#centralized-identity-model}
 
-In the centralized identity model, also known as siloed or traditional, a single provider offers both the identity (and its credentials, typically a username and password) and the service. This older model was used in the early days of the Internet and the Web and is still used today.
+In the centralized identity model, also known as siloed or traditional, a single provider offers both the identity (and its credentials, typically a username and password) and the service. This older model began to be used in the early days of the Internet and the Web and is still used today.
 
 The centralized identity model is the typical scenario when the user logs in to a social network to use it, and the credentials here are used to authenticate.
 
